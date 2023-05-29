@@ -1,0 +1,17 @@
+.container {
+  position: relative;
+  display: flex;
+  background-color: #0b131a;
+
+  .leftPanel {
+    padding: 10px;
+    width: 20%;
+  }
+
+  .rightPanel {
+    width: 80%;
+    position: fixed;
+    top: 0;
+    right: 0;
+  }
+}
